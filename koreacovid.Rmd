@@ -1,7 +1,7 @@
 ---
 title: "Initial Korean covid 19"
-author: "your name here"
-date: "todays date"
+author: "Kathleen Castro"
+date: "03/30/2023"
 output:
   html_document: default
   pdf_document: default
@@ -35,7 +35,13 @@ state of a patient must be died or alive - we adjust that as well
 ## Graphical results - use ggplot commands to do this  
 
 
+```{r}
+barchartGC(~result + Sex,data=kRdata)
+barchartGC(~result + Sex,data=kRdata, type="percent")
 
+```
+    
+Looking at the bar graph above, we can see that there are more males dying over the amount of females. The percentage for the males alive have a lower percentage compared to women. Taking a look at the frequency where the total amount of people are given, we can see that women have a higher rate of being alive when being compared to the men from this data.
   
 
 
