@@ -62,6 +62,7 @@ chisqtestGC(table1)
 fisher.test(table1)
 ```
   
+The data here now gives us the total amount of people alive and dead due to the disease. The observed count collected the data and shows that 1832 females and 1411 males are alive leaving 25 females and 44 males dead. When comparing the the observed count to the expected null, we can see a difference where the expected null shows more females dying compared to men meaning the disease targets more men over females. The odds ratio for men dying would be 2.3.
 
 ## Conclusions
 
